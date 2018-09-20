@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Roma",
+    "name_l10n": "罗玛",
+    "summary": "饱满，均衡",
+    "series": "浓烈系列",
+    "description": "Roma 在强度、精细度和饱满度之间取得了微妙的平衡，并以其独到的木本和烘焙香调显得与众不同。它由产自中南美洲的阿拉比卡豆混以罗巴斯塔豆制成，采用的轻度焙烧技术可保留混合饮品的精致香气。Roma 是品享小杯温和浓缩咖啡的理想之选。",
+    "origin": "由种植于中美洲高海拔地区的 Arabica 制成，确保了其精细度，而巴西的 Arabica 和 Robusta 则为其添加了主体和齿尖留香的余味。",
+    "roasting": "轻度烘焙，精细研磨，带出共混咖啡的所有精细感觉，从而制作出这款短尝型但又不太强烈的浓缩咖啡。",
+    "aromatic_profile": "在对源自不同地区浓烈口味咖啡豆的轻度烘焙中，烘烤和木本口感得以彰显。",
+    "intensity": 8,
+    "cup_sizes": 12,
+    "caffeine_content": 73
+  },
+  {
+    "name": "Arpeggio",
+    "name_l10n": "阿佩奇欧",
+    "summary": "强劲且绵密",
+    "series": "浓烈系列",
+    "description": "Arpeggio 由南美洲和中美洲的纯阿拉比卡豆混合而成，独具特色且口感醇厚。长时间的焙烧使咖啡豆得到充分释放，形成浓郁的花香，并伴有可可和烘焙的香调。",
+    "origin": "阿佩奇欧咖啡由优良的南美洲和中美洲 Arabicas 制成，辅以果香或麦芽香，与哥斯达黎加咖啡如出一辙。",
+    "roasting": "阿佩奇欧咖啡经过高度烘焙，使每种咖啡的特性得以展现。精细研磨则使其馥郁浓厚。",
+    "aromatic_profile": "浓烈的烘焙口感，辅以一丝可可与木本清香。",
+    "intensity": 9,
+    "cup_sizes": 12,
+    "caffeine_content": 63
+  },
+  {
+    "name": "Vivalto Lungo Decaffeinato",
+    "name_l10n": "唯沃托低因大杯",
+    "summary": "混合，平衡",
+    "series": "低咖啡因系列",
+    "description": "一次混合却平衡的共混，Vivalto Lungo Decaffeinato 唯沃托低因大杯咖啡拥有与 Vivalto Lungo 唯沃托大杯咖啡拥有同样复合、馥郁的个性：烘焙，轻微木本与甜美谷物再加上微妙的花香，以南美和东非 Arabicas 组合出复合且反差鲜明的共混。在去咖啡因过程仍能保留咖啡本性，不但能反映出咖啡豆本身的特质，更能保持其强烈和馥郁的芳香。",
+    "origin": "Decaffeinato 唯沃托低因大杯咖啡混合共混来自多个地区的咖啡因 Arabicas 包括哥伦比亚及及埃塞俄比亚，咖啡豆带有花香和甜美谷物香调。在去咖啡因过程仍能保留咖啡本性，不但能反映出咖啡豆本身的特质，更能保持其强烈和馥郁的芳香。",
+    "roasting": "分离烘焙技术更能突现出每种咖啡豆本身和地区的特性并延展出混合的风味：轻度烘焙带来埃塞俄比亚的微妙花香和哥伦比亚的果味香调，深度烘焙则更好的展现了共混的特征与苦味。",
+    "aromatic_profile": "Vivalto Lungo Decaffeinato 与原味 Vivalto Lungo 优选咖啡有着同样丰富的味道，包括烘焙香味、轻微木香、香甜谷物和微妙的花香。",
+    "intensity": 4,
+    "cup_sizes": 2,
+    "caffeine_content": 3
+  }
+]

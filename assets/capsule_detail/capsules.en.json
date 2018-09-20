@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Roma",
+    "name_l10n": "Roma",
+    "summary": "Full and balanced",
+    "series": "Intenso",
+    "description": "A subtle balance between strength, finesse and fullness, Roma sets itself apart by its woody and roasted notes. Central and South American Arabicas combined with Robusta have been lightly roasted to preserve the delicate aroma of the blend. Roma is the ideal coffee for those looking for an Espresso that is both short and mild.",
+    "origin": "Cultivated at high altitude, the Central American Arabica brings finesse, whilst the Brazilian Arabica and Robusta provide body and a lingering taste on the palate.",
+    "roasting": "Light roasting and fine grinding bring finesse to the blend and create a short espresso which is not too strong.",
+    "aromatic_profile": "Roasted and woody notes are revealed through the light roasting of intensely flavoured beans from different origins.",
+    "intensity": 8,
+    "cup_sizes": 12,
+    "caffeine_content": 73
+  },
+  {
+    "name": "Arpeggio",
+    "name_l10n": "Arpeggio",
+    "summary": "Intense and creamy",
+    "series": "Intenso",
+    "description": "Arpeggio takes its distinctive character and full body from a blend of Central and South American Arabicas. The long roasting allows each aspect to develop into an intense bouquet, combining cocoa and roasted notes.",
+    "origin": "A selection of the best South and Central American Arabicas, with fruity or malted profiles, characteristic of Costa Rican coffees.",
+    "roasting": "Arpeggio is roasted intensely to bring out the characteristics of each origin. Its full body develops from the fine grinding of the beans.",
+    "aromatic_profile": "Intense, grilled notes alongside subtle cocoa notes and woody hints.",
+    "intensity": 9,
+    "cup_sizes": 12,
+    "caffeine_content": 63
+  },
+  {
+    "name": "Vivalto Lungo Decaffeinato",
+    "name_l10n": "Vivalto Lungo Decaffeinato",
+    "summary": "Complex and balanced",
+    "series": "Decaffeinato",
+    "description": "A complex yet balanced blend, Vivalto Lungo Decaffeinato has the same rich character as the originalVivalto Lungo Grand Cru: roasted, lightly woody with sweet cereal and subtle floral notes. It is a pure Arabica blend from several origins including South America and East Africa. The aromatic profile of these coffees is carefully preserved during the decaffeination process, which respects the coffee bean’s true nature, allowing us to maintain the strength and richness of its aromas.",
+    "origin": "Vivalto Lungo Decaffeinato is a complex blend of decaffeinated Arabicas from several origins including Colombia and Ethiopia with subtle floral and sweet cereal notes. The aromatic profile of these coffees is carefully preserved during the decaffeination process, which respects the coffee bean’s true nature, allowing us to maintain the strength and richness of its aromas.",
+    "roasting": "Separate roasting of the beans brings out the characters of the different origins and develops the complexity of the flavour: a shorter and lighter roast preserves the subtle flowery bouquet of the Ethiopian beans and the fruity notes of the Colombian, while a darker and longer roast reinforces the character of the blend and develops its bitterness.",
+    "aromatic_profile": "Vivalto Lungo Decaffeinato has the same rich and complex character as the original Vivalto Lungo Grand Cru: roasted, lightly woody with sweet cereal and subtle floral notes.",
+    "intensity": 4,
+    "cup_sizes": 2,
+    "caffeine_content": 3
+  }
+]

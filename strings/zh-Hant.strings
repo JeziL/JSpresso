@@ -1,0 +1,17 @@
+"STRING_UI_RECORDED" = "已記錄";
+"STRING_UI_ADD" = "添加";
+"STRING_UI_ADDALERTTITLE" = "提示";
+"STRING_UI_ADDALERTMSG" = "如下樣本將被記錄至「健康」App：\n\n咖啡因: CAFFmg\n時間: TIME";
+"STRING_UI_OK" = "好";
+"STRING_UI_CANCEL" = "取消";
+"STRING_UI_ADDHEADER" = "樣本時間";
+"STRING_UI_ADDDATE" = "日期";
+"STRING_UI_ADDTIME" = "時間";
+"STRING_UI_ADDFOOTER" = "忘了記錄？在這裏選擇正確的時間。";
+"STRING_UI_RECORD" = "記錄";
+"STRING_UI_DETAIL" = "詳情";
+"STRING_HTML_INTENSITY" = "強度：";
+"STRING_HTML_CUPSIZE" = "杯量：";
+"STRING_HTML_ORIGIN" = "產地";
+"STRING_HTML_ROASTING" = "烘焙";
+"STRING_HTML_AROMATIC" = "咖啡香調";

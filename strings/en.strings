@@ -1,0 +1,17 @@
+"STRING_UI_RECORDED" = "Recorded";
+"STRING_UI_ADD" = "Add";
+"STRING_UI_ADDALERTTITLE" = "Tips";
+"STRING_UI_ADDALERTMSG" = "The following sample will be recorded to the Health app:\n\nCaffiene: CAFFmg\nTime: TIME";
+"STRING_UI_OK" = "OK";
+"STRING_UI_CANCEL" = "Cancel";
+"STRING_UI_ADDHEADER" = "Sample Time";
+"STRING_UI_ADDDATE" = "Date";
+"STRING_UI_ADDTIME" = "Time";
+"STRING_UI_ADDFOOTER" = "Forgot to record? Choose the correct time here.";
+"STRING_UI_RECORD" = "Record";
+"STRING_UI_DETAIL" = "Detail";
+"STRING_HTML_INTENSITY" = "Intensity: ";
+"STRING_HTML_CUPSIZE" = "Cup Sizes: ";
+"STRING_HTML_ORIGIN" = "ORIGIN";
+"STRING_HTML_ROASTING" = "ROASTING";
+"STRING_HTML_AROMATIC" = "AROMATIC PROFILE";

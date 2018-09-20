@@ -1,0 +1,13 @@
+{
+  "info": {
+    "name": "JSpresso",
+    "version": "0.9.0",
+    "author": "0x783A"
+  },
+  "settings": {
+    "minOSVer": "12.0.0",
+    "minSDKVer": "1.24.0",
+    "idleTimerDisabled": true,
+    "rotateDisabled": true
+  }
+}
