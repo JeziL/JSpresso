@@ -4,6 +4,10 @@
 
 <img src="https://i.loli.net/2018/09/21/5ba4fd3d3329d.png" width="250" />  <img src="https://i.loli.net/2018/09/21/5ba4fd3d301db.png" width="250" />  <img src="https://i.loli.net/2018/09/21/5ba4fd3d31da7.png" width="250" />
 
+## 安装 Install
+
+[点击 Click](https://xteko.com/redir?url=https%3A%2F%2Fgithub.com%2FJeziL%2FJSpresso%2Freleases%2Fdownload%2Fv0.9.0%2FJSpresso.box&name=JSpresso)
+
 ## 特性 Features
 
 - 各式 Nespresso 胶囊简介（源地、烘焙、香型……）； Introduction to many kinds of Nespresso capsules (origin, roasting, aromatic profile...);
