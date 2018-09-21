@@ -35,12 +35,13 @@ function init(details) {
         props: {
           id: "capSummary",
           font: $font(14),
-          textColor: $color("lightGray")
+          textColor: $color("lightGray"),
+          lines: 2
         },
         layout: function (make) {
-          make.top.equalTo($("capName").bottom).offset(-10);
+          make.top.equalTo($("capName").bottom).offset(-15);
           make.left.equalTo($("capName").left);
-          make.height.equalTo(30);
+          make.height.equalTo(40);
           make.width.equalTo($("capName").width);
         }
       },
