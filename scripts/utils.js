@@ -22,7 +22,7 @@ function detail2DataSource(detail) {
   for (let i = 0; i < detail.length; i++) {
     const cap = detail[i];
     var d = new Object;
-    d.capIcon = { data: $file.read(`assets/capsule_img/${cap.name.toLowerCase().replace(/ /g, "_")}.png`) };
+    d.capIcon = { data: $file.read(`assets/capsule_img/${cap.icon}`) };
     d.capName = { text: cap.name.toUpperCase() };
     d.capSummary = { text: cap.summary };
     d.caffeine = { text: `${cap.caffeine_content}mg` };

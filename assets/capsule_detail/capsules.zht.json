@@ -10,7 +10,8 @@
     "aromatic_profile": "來自不同產地的強烈口味咖啡豆，經輕度烘培的展現出烘烤味和木香。",
     "intensity": 8,
     "cup_sizes": 12,
-    "caffeine_content": 73
+    "caffeine_content": 73,
+    "icon": "C-0026-small-60x60.png"
   },
   {
     "name": "Arpeggio",
@@ -23,7 +24,8 @@
     "aromatic_profile": "濃烈的烘培口感，輔以可可和木香。",
     "intensity": 9,
     "cup_sizes": 12,
-    "caffeine_content": 63
+    "caffeine_content": 63,
+    "icon": "C-0001-small-60x60.png"
   },
   {
     "name": "Vivalto Lungo Decaffeinato",
@@ -36,6 +38,7 @@
     "aromatic_profile": "Vivalto Lungo Decaffeinato (咖啡因減量版)，擁有與 Vivalto Lungo 相同綜合而均衡的特性，伴隨烘烤、香甜穀物與微妙的花香調。",
     "intensity": 4,
     "cup_sizes": 2,
-    "caffeine_content": 3
+    "caffeine_content": 3,
+    "icon": "C-0148-DECAFFEINATO-VIVALTOLUNGO-C-CAPS-Small-60x60.png"
   }
 ]

@@ -10,7 +10,8 @@
     "aromatic_profile": "Roasted and woody notes are revealed through the light roasting of intensely flavoured beans from different origins.",
     "intensity": 8,
     "cup_sizes": 12,
-    "caffeine_content": 73
+    "caffeine_content": 73,
+    "icon": "C-0026-small-60x60.png"
   },
   {
     "name": "Arpeggio",
@@ -23,7 +24,8 @@
     "aromatic_profile": "Intense, grilled notes alongside subtle cocoa notes and woody hints.",
     "intensity": 9,
     "cup_sizes": 12,
-    "caffeine_content": 63
+    "caffeine_content": 63,
+    "icon": "C-0001-small-60x60.png"
   },
   {
     "name": "Vivalto Lungo Decaffeinato",
@@ -36,6 +38,7 @@
     "aromatic_profile": "Vivalto Lungo Decaffeinato has the same rich and complex character as the original Vivalto Lungo Grand Cru: roasted, lightly woody with sweet cereal and subtle floral notes.",
     "intensity": 4,
     "cup_sizes": 2,
-    "caffeine_content": 3
+    "caffeine_content": 3,
+    "icon": "C-0148-DECAFFEINATO-VIVALTOLUNGO-C-CAPS-Small-60x60.png"
   }
 ]
