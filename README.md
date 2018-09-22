@@ -6,7 +6,7 @@
 
 ## 安装 Install
 
-[点击 Click](https://xteko.com/redir?url=https%3A%2F%2Fgithub.com%2FJeziL%2FJSpresso%2Freleases%2Fdownload%2Fv0.9.0%2FJSpresso.box&name=JSpresso)
+[点击 Click](https://xteko.com/redir?url=https%3A%2F%2Fgithub.com%2FJeziL%2FJSpresso%2Freleases%2Fdownload%2Fv0.10.0%2FJSpresso.box&name=JSpresso)
 
 ## 特性 Features
 
