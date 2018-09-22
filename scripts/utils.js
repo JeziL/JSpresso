@@ -17,6 +17,24 @@ function loadCapsuleDetail() {
   return caps;
 }
 
+function filterDataSource(ds, query) {
+  query = query.toLowerCase().replace(" ", "");
+  var result = new Array;
+  for (let i = 0; i < ds.length; i++) {
+    let data = ds[i];
+    let name = data.capName.text.toLowerCase().replace(" ", "");
+    if (name.includes(query)) {
+      result.push(data);
+    }
+  }
+  result.sort(function (a, b) {
+    if (a.capName.text < b.capName.text) return -1;
+    if (a.capName.text > b.capName.text) return 1;
+    return 0;
+  });
+  return result;
+}
+
 function detail2DataSource(detail) {
   var ds = new Array;
   for (let i = 0; i < detail.length; i++) {
@@ -26,6 +44,7 @@ function detail2DataSource(detail) {
     d.capName = { text: cap.name.toUpperCase() };
     d.capSummary = { text: cap.summary };
     d.caffeine = { text: `${cap.caffeine_content}mg` };
+    d.index = i;
     ds.push(d);
   }
   return ds;
@@ -74,5 +93,6 @@ module.exports = {
   loadCapsuleDetail: loadCapsuleDetail,
   writeCaff2Health: writeCaff2Health,
   detail2DataSource: detail2DataSource,
-  generateDetailHTML: generateDetailHTML
+  generateDetailHTML: generateDetailHTML,
+  filterDataSource: filterDataSource
 };

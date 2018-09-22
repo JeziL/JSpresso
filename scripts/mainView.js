@@ -61,7 +61,7 @@ function init(details) {
             let cell = sender.super.super;
             let tableView = cell.super;
             let indexPath = tableView.runtimeValue().$indexPathForCell(cell).rawValue();
-            detailView.init(details[indexPath.row]);
+            detailView.init(details[$("capTableView").object(indexPath).index]);
           }
         }
       },
@@ -91,6 +91,7 @@ function init(details) {
       {
         type: "list",
         props: {
+          id: "capTableView",
           template: capCell,
           data: utils.detail2DataSource(details),
           rowHeight: 100,
@@ -98,15 +99,41 @@ function init(details) {
             {
               title: $l10n("STRING_UI_ADD"),
               handler: function (sender, indexPath) {
-                addView.init(details[indexPath.row]);
+                addView.init(details[$("capTableView").object(indexPath).index]);
               }
             }
-          ]
+          ],
+          header: {
+            type: "view",
+            props: {
+              bgcolor: $color("white"),
+              height: 42
+            },
+            views: [
+              {
+                type: "input",
+                props: {
+                  id: "searchInput",
+                  type: $kbType.search,
+                  placeholder: $l10n("STRING_UI_SEARCH")
+                },
+                layout: function (make, view) {
+                  make.top.left.right.inset(10);
+                  make.bottom.equalTo(view.super);
+                },
+                events: {
+                  changed: function (sender) {
+                    $("capTableView").data = utils.filterDataSource(utils.detail2DataSource(details), sender.text);
+                  }
+                }
+              }
+            ]
+          }
         },
         layout: $layout.fill,
         events: {
           didSelect: function (sender, indexPath) {
-            addView.addToHealth(details[indexPath.row], new Date());
+            addView.addToHealth(details[$("capTableView").object(indexPath).index], new Date());
           }
         }
       }
