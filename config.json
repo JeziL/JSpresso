@@ -1,9 +1,9 @@
 {
   "info": {
     "name": "JSpresso",
-    "version": "0.10.0",
+    "version": "0.10.1",
     "author": "0x783A",
-    "url": "https://github.com/JeziL/JSpresso/releases/download/v0.10.0/JSpresso.box"
+    "url": "https://raw.githubusercontent.com/JeziL/JSpresso/master/.release/JSpresso.box"
   },
   "settings": {
     "minOSVer": "12.0.0",
