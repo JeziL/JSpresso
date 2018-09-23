@@ -9,7 +9,7 @@ function init(cap) {
           id: "title",
           textColor: $color("lightGray")
         },
-        layout: function (make, view) {
+        layout: (make, view) => {
           make.top.left.bottom.inset(15);
           make.width.equalTo(view.super).multipliedBy(0.4).offset(-15);
         }
@@ -20,7 +20,7 @@ function init(cap) {
           id: "value",
           align: $align.right
         },
-        layout: function (make, view) {
+        layout: (make, view) => {
           make.top.right.bottom.inset(15);
           make.width.equalTo(view.super).multipliedBy(0.6).offset(-15);
         }
@@ -33,7 +33,7 @@ function init(cap) {
       navButtons: [
         {
           title: $l10n("STRING_UI_RECORD"),
-          handler: function (sender) {
+          handler: (sender) => {
             addToHealth(cap, $("date-picker").date);
           }
         }
@@ -71,19 +71,19 @@ function init(cap) {
             }
           }
         },
-        layout: function (make, view) {
+        layout: (make, view) => {
           make.left.top.right.equalTo(view.super);
           make.height.equalTo(view.super).multipliedBy(0.6);
         }
       },
       {
         type: "date-picker",
-        layout: function (make) {
+        layout: (make) => {
           make.top.equalTo($("list").bottom);
           make.left.right.bottom.inset(0);
         },
         events: {
-          changed: function (sender) {
+          changed: (sender) => {
             var data = $("list").data;
             data[0].rows[0].value.text = sender.date.toLocaleDateString();
             data[0].rows[1].value.text = sender.date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });

@@ -9,7 +9,7 @@ function loadCapsuleDetail() {
       break;
   }
   let caps = JSON.parse($file.read(`assets/capsule_detail/capsules.${l10n}.json`).string);
-  caps.sort(function (a, b) {
+  caps.sort((a, b) => {
     if (a.name < b.name) return -1;
     if (a.name > b.name) return 1;
     return 0;
@@ -27,7 +27,7 @@ function filterDataSource(ds, query) {
       result.push(data);
     }
   }
-  result.sort(function (a, b) {
+  result.sort((a, b) => {
     if (a.capName.text < b.capName.text) return -1;
     if (a.capName.text > b.capName.text) return 1;
     return 0;
@@ -68,7 +68,7 @@ function writeCaff2Health(date, value) {
     let shareType = NSSet.$setWithObject(cafType);
     let readType = NSSet.$setWithObject(cafType);
 
-    let completionHandler = $block("void, BOOL, NSError *", function (success, error) {
+    let completionHandler = $block("void, BOOL, NSError *", (success, error) => {
       if (success) {
         let mg = $objc("HKUnit").$unitFromString("mg");
         let quantity = $objc("HKQuantity").$quantityWithUnit_doubleValue(mg, value);
@@ -76,7 +76,7 @@ function writeCaff2Health(date, value) {
         let components = calendar.$components_fromDate(0x7C, date);
         let sampleTime = calendar.$dateFromComponents(components);
         let sample = $objc("HKQuantitySample").$quantitySampleWithType_quantity_startDate_endDate(cafType, quantity, sampleTime, sampleTime);
-        let saveHandler = $block("void, BOOL, NSError *", function (success, error) {
+        let saveHandler = $block("void, BOOL, NSError *", (success, error) => {
           if (success) {
             $ui.toast($l10n("STRING_UI_RECORDED"), 2);
           }

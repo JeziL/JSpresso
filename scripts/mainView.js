@@ -10,7 +10,7 @@ function init(details) {
         props: {
           id: "capIcon"
         },
-        layout: function (make) {
+        layout: (make) => {
           make.size.equalTo($size(60, 60));
           make.top.left.inset(20);
         }
@@ -23,7 +23,7 @@ function init(details) {
           lines: 2,
           autoFontSize: true
         },
-        layout: function (make, view) {
+        layout: (make, view) => {
           make.top.inset(5);
           make.left.equalTo($("capIcon").right).offset(20);
           make.height.equalTo(60);
@@ -38,7 +38,7 @@ function init(details) {
           textColor: $color("lightGray"),
           lines: 2
         },
-        layout: function (make) {
+        layout: (make) => {
           make.top.equalTo($("capName").bottom).offset(-15);
           make.left.equalTo($("capName").left);
           make.height.equalTo(40);
@@ -51,13 +51,13 @@ function init(details) {
           id: "detailBtn",
           type: $btnType.infoLight
         },
-        layout: function (make, view) {
+        layout: (make, view) => {
           make.size.equalTo($size(30, 30));
           make.centerY.equalTo(view.super);
           make.right.inset(20);
         },
         events: {
-          tapped: function (sender) {
+          tapped: (sender) => {
             let cell = sender.super.super;
             let tableView = cell.super;
             let indexPath = tableView.runtimeValue().$indexPathForCell(cell).rawValue();
@@ -73,7 +73,7 @@ function init(details) {
           font: $font(14),
           textColor: $color("darkGray")
         },
-        layout: function (make, view) {
+        layout: (make, view) => {
           make.height.equalTo($("detailBtn").height);
           make.centerY.equalTo(view.super);
           make.right.equalTo($("detailBtn").left).offset(-8);
@@ -98,7 +98,7 @@ function init(details) {
           actions: [
             {
               title: $l10n("STRING_UI_ADD"),
-              handler: function (sender, indexPath) {
+              handler: (sender, indexPath) => {
                 addView.init(details[$("capTableView").object(indexPath).index]);
               }
             }
@@ -117,12 +117,12 @@ function init(details) {
                   type: $kbType.search,
                   placeholder: $l10n("STRING_UI_SEARCH")
                 },
-                layout: function (make, view) {
+                layout: (make, view) => {
                   make.top.left.right.inset(10);
                   make.bottom.equalTo(view.super);
                 },
                 events: {
-                  changed: function (sender) {
+                  changed: (sender) => {
                     $("capTableView").data = utils.filterDataSource(utils.detail2DataSource(details), sender.text);
                   }
                 }
@@ -132,10 +132,10 @@ function init(details) {
         },
         layout: $layout.fill,
         events: {
-          didSelect: function (sender, indexPath) {
+          didSelect: (sender, indexPath) => {
             addView.addToHealth(details[$("capTableView").object(indexPath).index], new Date());
           },
-          didScroll: function (sender) {
+          didScroll: (sender) => {
             $("searchInput").blur();
           }
         }
