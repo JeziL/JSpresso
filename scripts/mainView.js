@@ -134,6 +134,9 @@ function init(details) {
         events: {
           didSelect: function (sender, indexPath) {
             addView.addToHealth(details[$("capTableView").object(indexPath).index], new Date());
+          },
+          didScroll: function (sender) {
+            $("searchInput").blur();
           }
         }
       }
