@@ -11,8 +11,8 @@ function init(details) {
           id: "capIcon"
         },
         layout: (make) => {
-          make.size.equalTo($size(60, 60));
-          make.top.left.inset(20);
+          make.size.equalTo($size(44, 44));
+          make.top.left.inset(28);
         }
       },
       {
