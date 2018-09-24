@@ -11,8 +11,8 @@ function init(details) {
           id: "capIcon"
         },
         layout: (make) => {
-          make.size.equalTo($size(44, 44));
-          make.top.left.inset(28);
+          make.size.equalTo($size(46, 46));
+          make.top.left.inset(27);
         }
       },
       {
@@ -25,7 +25,7 @@ function init(details) {
         },
         layout: (make, view) => {
           make.top.inset(5);
-          make.left.equalTo($("capIcon").right).offset(20);
+          make.left.equalTo($("capIcon").right).offset(27);
           make.height.equalTo(60);
           make.width.equalTo(view.super).multipliedBy(0.6).offset(-105);
         }
