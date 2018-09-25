@@ -7,8 +7,7 @@ async function getLatestVersion() {
 }
 
 function getCurrentVersion() {
-  let config = JSON.parse($file.read("config.json").string);
-  return config.info.version;
+  return $file.read("VERSION").string;
 }
 
 function compareVersion(v1, v2) {
