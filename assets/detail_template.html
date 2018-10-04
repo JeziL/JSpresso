@@ -14,7 +14,20 @@
   <p id="l10n"><em><span id="series"></span><span id="l10n_name"></span></em></p>
   <div id="capInfo">
     <p><span id="intense_text">$INTENSITY$</span>
-      <span id="intense_icon"></span></p>
+      <span id="intense_icon">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+        <img src="assets/img/caf.png" style="margin-left: 1px; width: 16px; height: 16px; display: none;">
+      </span></p>
     <p><span id="cup_text">$CUP_SIZE$</span>
       <span id="cup_icon"></span></p>
   </div>
@@ -37,7 +50,6 @@
 
   <script type="text/javascript">
 
-    let cafIconImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAACR0lEQVQ4EW2TP2gUYRDF3367mxgsNI2xTiVYmRBEiZIiEAVRFDSKVgq2dkoEYVOIiI2tCArin2gQSSFYiB4HQYvDQi2iIAjaCEb8g4h32V1/b28TrvCD4ZvZeW/ezHx3kf5zJqSkIa04NS2NcR0I0o5SGsL/hT39K119JC1HBL0nyiRbcVgajaVZknu5Q4GTY/jqxyjwGoUpx9XJADWk0nZUOk/lO6hugVRiOdZJ6AzwZ8jXcA7hD4KRMsiYRQLkW1S9SBBQ8BgRrVu1n28tPhyDvN1gzqRHsBkjyHMkp1HoEOJWp4TsYje+STMbpYepNN6mK4i/A7NWXbCsyz1kMFXRqI887Z+bk04NSvMmI9CGFGNfrK4jLAPyE2TBVntydQP84fi8dBeBJphdKLu7QKGYMW5Hp6X0h/QSwghgF/BMJrcB7HkgPYe8CHlnTU6ZN6czF9iXfJf2kxyp1SPIAfIf6uyG3KK7FksdXSXzPQdv8iJjPcb37qpTQE6tjML4BukNym8hb6W4217dSxfMU9tJIGzzW0FKXI17kuoffkpL5IZ7yMav8CIp+Fm6a/IAcYCwGSvWMTrgE4A+ovqeexhgr3LHZJZ0k9azjFFZbo6IluunukTwifgdtgmgG/PCfEe18vV70knHWf3bCczdBFzUhGe0P4DvPfiUFE/oqEMrZ1Hm0dZOBQlsd4YiS+ulC3QQ4/sn2Iei9+P/wALIsfvSlYy2SRtS1+8GOkjLrPgM2QmSA9hXiC+IFyC+InYiaXTHcbh2/gGn3r+NH3VUkAAAAABJRU5ErkJggg==";
     let risIconImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAmCAYAAACLZrh7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAACIElEQVRYCe2Wuy8FQRTG73olEkQUCkF1IwotCVGpVAiJUqHzFwiFVhQKhU6nolGKKMUrEtF41V6JZ6G4CWH9zppJJtdrZq69FHOSb8/smfOdM3P27M5mMkFCBUIFQgVCBUIFQgVCBUIFQgVCBUIFQgVCBUIF/mMF4jieB78p07+5z8g1GDt5gFMLjsGTK9/wr2TcAi6iKGo07MUdsqFV9Xh6CslMjD4VZw89oNCNrigkrjOXhFNAZNKZbBDgzyRRPl6uMA0Zrk7DMifvd+ctxen24JqUTnUzj75V4zb0IFhmU7204rqyp6dIVA1ewB1wfgdlZfDKQU6h3FwttlEgsmvaUx2T7CBJGcetPongdij+Rj4fewTuwUv+nM19iY3TJz7bytb1yZyNSfN0+5qcGm6qQM402o59N6QXot8D23zaT/N0nMTOU5GNLABpw5XEWIwLibNA5MgnH7zzhB3Hp2hpX8EheAYiZ6DBJ7Y3h4TX4BXIIWst+DeBr+SCCfkTqbcOmOfo89nWIaRd+sEsCzjTRgudVT6LfJZHLPyL48ImxkEhMpbGSgt5QptqQSfoCYfFzeHbDDTfgZqiK4+mEshL/AhKbVL5cGzimj6+n+0M/S/nxD6QT638sthIO07SFdvwvQ7On5J4b0gFdj1g9fmz89PCfOe9/sV0MlpomPESuAGX2v6NbmKuDsiP59o3fn8zxYbqwD5wkU2cpU1TkTcRSRALwIPM+AAAAABJRU5ErkJggg==";
     let esIconImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAmCAYAAACLZrh7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAACJklEQVRYCe2XzStEURjG58pHFqLULPgDbCQpLKSUNWallIXyJ7CxpJSFpS2NnYWysLFRNhRTNFs2ShZIlBT5uH4v59SZacy959wZajqnHufc97zP+/Hcc+deqZQfXgGvgFfAK+AV8Ap4BbwCXgGvgFfAK+AVqBkFwjDcBpUc05USJ3AJRCf38OrBjgvf4LSyzoCNIAhmDfvfLmloD7yChiSZ4Y8DGSugF/SA5iQxnbgkXQIy+p0CKBL85e8ohX+euJxzjSvHxmUcK5I0lHMJYPBfWC+o6zTzFFilqUeO4bqyV3ciWVqJmnXNBD8AD+DQjMF1O7gF56Y97trpDqGcJLwkSYb5IG6yIj/J3QZOTDux74l5hG3CtMddOzWkgkshk6APfCqbzdSknAsaohmpqRvc2ARL7EvieSBj1CUYvLVvdhjOMI8ojDHvKvuyS1xnDkmHVWL9QFvFgnus+KUmeXE3WgVUzkmO3CkxPsCAbWJVbC+8PMga/DfWOZ6jgmNo7Fd3SWF5cG2bBU4/kLFoy43yr4tyiNgXJTsorDPCr3hb39WK34lKNCTF6gKLC//tWvvXTEODdHrJs3L3W8f/Yueo1YNnsB+3AHxbwSfYisux8Ut05FD4nWTyaycPedxY8v0n/7Yk+QaEXnrELaI0+8cqH6otoKuck7Gnv9D1B66xlXyZ5D2ks2ul5c1/pY1l5iH25P11Vsbn/7ZoQr68L4DN2KxWxV974LRjz0H3PAAAAABJRU5ErkJggg==";
     let lunIconImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAmCAYAAACLZrh7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAACqElEQVRYCe2Wv2sUQRTH7xIjBCOiksJGCyGoiKiIqJ0YsFIkYC/YCHb+A9ZaaBtFMH+ANoIiChYW/sJCJaAcKsEiEKNBgtpIHD/fc/Yyu3B3M7NzYjEPvjtvZt/7vnlvZmen0ciSK5ArkCuQK5ArkCuQK5ArkCuQK/AfVMAY8wgMWm7VSbUZ4kwm89gvg+kQvwDbC+JvNpu7A3ziTUnotk0qnqSLJ7zD4Du40cXEa3iNl9Wq0XPUKYK+pjWrw0k0zWUdOAb/Q9pZcI3VekfrLaEJPXGY5xw9hTphSbStx8A5cJ7kTpHUPfsubQP5KPgFrqRlZrmNmQHLYEjctOPgrZA6VomPAC/B09Jggo6d/AOXirHLIGhrt6vhknjoz7DZT5y1HrZeJnBtxHAHELcr+qZW3IF+ekxC+o6UzL5+5AHvD1nb6spvZfxTAE8jJiGddJLDf5skzyKhFwUbqzaMfgR0xop3vdrghDhxPkC4CFIn1IL7qzPZSfRN4K4zNhiV6t0BcynY4RkC38CMy0f/PlgC+o68JXiFLLP2+jaCbfGO1N1Qh8EGUGxlHdkn6B8HV1m1H7SDFQIeBZKpupHgONtmMmavuNB3gi9A/6DRuvxe/gQaAyvgkpdDDyM4rgPd4UbAaaBkFsGuHm7pXxHwFXhclxmOWfATLACJeLUN/60QdBpoIqH3wc5E8V0PfoMWuAm0QrHfdYc3SiHwGSA5EEWAE76TbQZjTsZyVP3qVKP4qx+skgb0ix9q9coTQFE2rZNQC6oloL95rMj3I0fz51iCql90QkxCt2BdS4oqV7l9+lrdzv/Hx6GfTXRClljbbjvfwXi/QNX3+EwwthnosptMok8oO4Ni719kgu8DZ7XH2iddocA5lM1JQseujtxYeYPjSJm1Xu8PFQn93Tbt5lIAAAAASUVORK5CYII=";
@@ -49,11 +61,9 @@
     function setIntense() {
       let intense = cap.intensity;
       var intenseIcon = document.getElementById("intense_icon");
+      var children = intenseIcon.children;
       for (let i = 0; i < intense; i++) {
-        var cafIcon = document.createElement("img");
-        cafIcon.setAttribute("src", cafIconImg);
-        cafIcon.setAttribute("style", "margin-left: 2px; width: 16px; height: 16px;");
-        intenseIcon.appendChild(cafIcon);
+        children[i].style.display = "inline";
       }
     }
 
