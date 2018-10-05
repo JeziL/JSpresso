@@ -262,3 +262,17 @@ a:target, ol#footnotes li:target, sup a:target {
 div#capInfo {
   margin: 2em 0;
 }
+
+img.cupSize {
+  margin-left: 5px;
+  width: 31px;
+  height: 25px;
+  display: none;
+}
+
+img.intense {
+  margin-left: 1px;
+  width: 16px;
+  height: 16px;
+  display: none;
+}
