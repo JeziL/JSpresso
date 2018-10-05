@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8" />
   <link rel="stylesheet" href="assets/css/detail_page.css">
+  <script src="assets/js/detail_page.js"></script>
 </head>
 
 <body>
 
   <h1 id="name"></h1>
-
   <p id="l10n"><em><span id="series"></span><span id="l10n_name"></span></em></p>
+  
   <div id="capInfo">
     <p><span id="intense_text">$INTENSITY$</span>
       <span id="intense_icon">
@@ -42,55 +43,19 @@
   </blockquote>
 
   <h2>$ORIGIN$</h2>
-
   <p id="origin"></p>
 
   <h2>$ROASTING$</h2>
-
   <p id="roasting"></p>
 
   <h2>$AROMATIC$</h2>
-
   <p id="aromatic_profile"></p>
 
   <script type="text/javascript">
-
     let cap = $CAP$;
-
-    function setIntense() {
-      let intense = cap.intensity;
-      var intenseIcon = document.getElementById("intense_icon");
-      var children = intenseIcon.children;
-      for (let i = 0; i < intense; i++) {
-        children[i].style.display = "inline";
-      }
-    }
-
-    function setCupSize() {
-      let cupSize = cap.cup_sizes;
-      var cupIcon = document.getElementById("cup_icon");
-      var children = cupIcon.children;
-      for (let i = 0; i < 4; i++) {
-        if (cupSize & (0x8 >> i)) {
-          children[i].style.display = "inline";
-        }
-      }
-    }
-
-    function setTextContents() {
-      if (cap.name_l10n != cap.name) {
-        document.getElementById("l10n_name").innerHTML = ` · ${cap.name_l10n}`;
-      }
-      let keys = ["name", "series", "description", "origin", "roasting", "aromatic_profile"];
-      for (let i = 0; i < keys.length; i++) {
-        document.getElementById(keys[i]).innerHTML = cap[keys[i]];
-      }
-    }
-
-    setIntense();
-    setCupSize();
-    setTextContents();
-
+    setIntense(cap);
+    setCupSize(cap);
+    setTextContents(cap);
   </script>
 
 </body>
