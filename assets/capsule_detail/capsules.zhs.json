@@ -432,5 +432,47 @@
     "cup_sizes": 4,
     "caffeine_content": 60,
     "icon": "C-0348-product-small-60x60.png"
+  },
+  {
+    "name": "Caffè Venezia",
+    "name_l10n": "威尼斯咖啡馆",
+    "summary": "果香",
+    "series": "限量版巡礼系列",
+    "description": "与历史的生动碰撞。这些意大利咖啡来自历史悠久的哈尔地区，混合了印度阿拉比卡咖啡豆，营造出一种来自东方饱含异域风情，拥有历史厚重感的咖啡风味。花香和木本香中还带着一丝烘焙香气，整体口感浓郁丰富。",
+    "origin": "埃塞俄比亚 - 印度",
+    "roasting": "中度烘焙咖啡",
+    "aromatic_profile": "花香和果香",
+    "intensity": 7,
+    "cup_sizes": 6,
+    "caffeine_content": 69,
+    "icon": "C-0390-2000x2000.png"
+  },
+  {
+    "name": "Café Istanbul",
+    "name_l10n": "伊斯坦布尔咖啡馆",
+    "summary": "强度",
+    "series": "限量版巡礼系列",
+    "description": "与历史的生动碰撞。来自也门的阿拉比卡咖啡与东印度群岛和印度的珍贵咖啡风味混合在一起，成就了这款限量版咖啡胶囊。让人联想到神秘的东方集市，它具有浓郁的异国情调，带有强烈的烘焙和黑胡椒辛辣香气，让人对那段历史回味连绵。",
+    "origin": "也门，印度，印度尼西亚",
+    "roasting": "中度烘焙咖啡",
+    "aromatic_profile": "强劲和辛辣",
+    "intensity": 10,
+    "cup_sizes": 12,
+    "caffeine_content": 93,
+    "icon": "C-0391-2000x2000.png"
+  },
+  {
+    "name": "Variations Paris Macaron",
+    "name_l10n": "风味巴黎马卡龙",
+    "summary": "巴黎之味",
+    "series": "限量版咖啡",
+    "description": "马卡龙甜点标志性的杏仁风味咖啡。风味巴黎马卡龙咖啡是莉梵朵咖啡的谷物口感与微妙甜杏仁风味的巧妙融合，有马卡龙甜点的特有风味。",
+    "origin": "甄选中美和南美阿拉比卡咖啡豆",
+    "roasting": "中度烘焙倍添麦芽口感，从中衍生的果香口感则营造出综合与雅致的焦糖味道。",
+    "aromatic_profile": "杏仁风味",
+    "intensity": 6,
+    "cup_sizes": 4,
+    "caffeine_content": 68,
+    "icon": "C-0372-Paris-Macaron-2000x2000"
   }
 ]

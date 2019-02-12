@@ -432,5 +432,47 @@
     "cup_sizes": 4,
     "caffeine_content": 60,
     "icon": "C-0348-product-small-60x60.png"
+  },
+  {
+    "name": "Caffè Venezia",
+    "name_l10n": "Caffè Venezia",
+    "summary": "Fruity",
+    "series": "Limited Edition - Coffee Houses",
+    "description": "A lively blend of history. A taste of history as coffee from the ancient Ethiopian region of Harrar mixes with Indian Arabica to create a cup rich with the exotic perfume of the East. Wild and floral notes combine with a roasted character in this potent and complex coffee.",
+    "origin": "Ethiopia-India",
+    "roasting": "A Medium roasted coffee.",
+    "aromatic_profile": "Flowery and fruity",
+    "intensity": 7,
+    "cup_sizes": 6,
+    "caffeine_content": 69,
+    "icon": "C-0390-2000x2000.png"
+  },
+  {
+    "name": "Café Istanbul",
+    "name_l10n": "Café Istanbul",
+    "summary": "Intense",
+    "series": "Limited Edition - Coffee Houses",
+    "description": "A lively blend of history. Arabian Mocha coffee from Yemen mixes with East Indies and Indian treasures to create this cup, reminiscent of the mystery of the oriental bazaar. Evocative of historical blends, it has an exotic character carrying intense roasted and black pepper spicy notes.",
+    "origin": "Yemen, India, Indonesia",
+    "roasting": "A Medium roasted coffee.",
+    "aromatic_profile": "Intense and spicy",
+    "intensity": 10,
+    "cup_sizes": 12,
+    "caffeine_content": 93,
+    "icon": "C-0391-2000x2000.png"
+  },
+  {
+    "name": "Variations Paris Macaron",
+    "name_l10n": "Variations Paris Macaron",
+    "summary": "A taste of Paris",
+    "series": "Limited edition Coffee",
+    "description": "An almond flavoured coffee emblematic of the Macaron pastry. Variations Paris Macaron is a harmonious combination of Livantos cereal notes and a subtle and sweet almond flavour, emblematic of the Macaron pastry.",
+    "origin": "100% Arabica from Central America and South America.",
+    "roasting": "A round and balanced profile, typical of freshly roasted coffee results in a combination of cereal, malted and caramelised notes as well as fine fruity notes.",
+    "aromatic_profile": "Almond flavoured",
+    "intensity": 6,
+    "cup_sizes": 4,
+    "caffeine_content": 68,
+    "icon": "C-0372-Paris-Macaron-2000x2000"
   }
 ]
